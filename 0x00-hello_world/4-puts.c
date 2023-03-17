@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * my first simple program
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
