@@ -10,14 +10,12 @@ int main(void)
 
 	while (c < 122)
 	{
-		if (c == 101 && c == 113)
+		if (c == 101 || c == 113)
 		{
+			c++;
 			continue;
 		}
-		else
-		{
-			putchar(c);
-		}
+		putchar(c);
 		c++;
 	}
 	putchar('\n');
