@@ -2,8 +2,8 @@
 #include <ctype.h>
 /**
  * _isupper- Check the letter if upper
- *@c:The letter will be checked
- * Return :1 for upper otherwise 0
+ *@c: the letter will be chicked
+ *Return: 1 if is upper or 0 for otherwise
  */
 int _isupper(int c)
 {
